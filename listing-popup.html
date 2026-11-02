@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><link rel="stylesheet" href="listing-popup.css"><title>瀚栩页面读取</title></head>
+<body><h1>瀚栩页面读取</h1><p id="store">正在核对本机店铺…</p><p id="status" role="status">只读取商家经营数据。</p>
+<small id="diagnostics"></small>
+<small id="business-api" role="status"></small>
+<small id="connection" role="status">正在检查当前页面连接…</small>
+<button id="connect" hidden>连接当前页面</button>
+<p>登录并核对店铺后，自动读取昨日流量、成交、退款汇总，以及首页显示的昨日推广花费。平台要求验证时停止。</p>
+<p>店铺身份、日期和经营指标会交给本机瀚栩云管，核验后按当前账号权限保存到本地并同步云端经营数据。</p>
+<button id="toggle" disabled>暂停读取</button>
+<small>不打开页面、不点击、不切换日期、不读取账号密码或 Cookie。关闭客户端后先暂存，重新打开后补传仍在有效期内的数据。</small>
+<script src="listing-mock.js"></script><script src="listing-popup.js"></script></body></html>
